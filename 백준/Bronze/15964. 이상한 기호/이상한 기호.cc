@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int calculation (int x, int y){
-    return (x+y)*(x-y);
+long long calculation (int x, int y){
+    return (long long) (x+y)*(x-y);
 }
 
 
