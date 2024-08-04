@@ -5,10 +5,10 @@
 using namespace std;
 
 int main() {
-    int testcase;
-    cin >> testcase; 
+    int n;
+    cin >> n; 
    
-    while(testcase--) {
+    for(int i=0;i<n;i++) {
         stack<char> st;
         string s;
         cin >> s; 
