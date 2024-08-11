@@ -13,7 +13,7 @@ void binary_search(int x){
         mid =(left+right)/2;
         
         if(arr[mid]==x){
-            cout<<1<<"\n";
+            cout<<"1"<<"\n";
             return;
         }
         else if (arr[mid]>x){
@@ -23,7 +23,7 @@ void binary_search(int x){
             left = mid +1;
         }
     }
-    cout<<0<<"\n";
+    cout<<"0"<<"\n";
     return;
 }
 
