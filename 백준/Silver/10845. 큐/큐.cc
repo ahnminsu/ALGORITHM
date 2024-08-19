@@ -23,7 +23,7 @@ int main() {
         }
         else if(str == "pop"){
             if(q.empty()){
-                cout<<"-1"<<"\n";
+                cout<<-1<<"\n";
             }
             else{
                 cout<<q.front()<<"\n";
@@ -38,7 +38,7 @@ int main() {
         }
         else if (str =="front"){
             if(q.empty()){
-                cout<<"-1"<<"\n";
+                cout<<-1<<"\n";
             }
             else{
                 cout<<q.front()<<"\n";
@@ -46,7 +46,7 @@ int main() {
         }
         else if (str =="back"){
             if(q.empty()){
-                cout<<"-1"<<"\n";
+                cout<<-1<<"\n";
             }
             else{
                 cout<<q.back()<<"\n";
