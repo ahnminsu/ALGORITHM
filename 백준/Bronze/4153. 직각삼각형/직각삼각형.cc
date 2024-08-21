@@ -11,7 +11,7 @@ int main() {
     while(cin>>a>>b>>c){
 
         if(a==0&&b==0&&c==0){
-            return 0;
+            break;
         }
 
         if(a*a==b*b+c*c||b*b==a*a+c*c||c*c==a*a+b*b){
