@@ -7,8 +7,8 @@ int main() {
     cin.tie(NULL);
 
     int L;
-    int hash = 0;
-    int R = 1;
+    long long hash = 0;
+    long long R = 1;
     int r = 31;
     int M = 1234567891;
     char arr[51];
