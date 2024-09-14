@@ -39,10 +39,6 @@ int main(){
         map[a][b] = map[b][a] = 1;
     }
 
-    for(int i=1;i<=N;i++){
-        visited[i]=false;
-    }
-
 
     bfs(1);
 
