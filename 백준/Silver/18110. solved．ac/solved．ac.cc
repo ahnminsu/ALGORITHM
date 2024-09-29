@@ -8,10 +8,11 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int level[300000];
     int n;
     cin>>n;
 
+    int level[n];
+    
     if(n==0){
         cout<<0;
         return 0;
