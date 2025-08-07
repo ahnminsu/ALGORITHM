@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main() {
@@ -6,23 +7,22 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int arr[5];
-    int cnt = 0;
+    vector<int>v;
     string str;
 
     for (int i=0;i<5;i++) {
         cin>>str;
         if (str.find("FBI") != string::npos) {
-            arr[cnt++]=i+1;
+            v.push_back(i+1);
         }
     }
 
-    if (cnt==0) {
+    if (v.size()==0) {
         cout<<"HE GOT AWAY!";
     }
     else {
-        for(int i=0;i<cnt;i++) {
-            cout<<arr[i]<<" ";
+        for(int i :v) {
+           cout<<i <<" ";
         }
     }
 
