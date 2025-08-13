@@ -20,9 +20,9 @@ int main() {
     else if (str =="KIS") {
         cout<<"Korea International School";
     }
-    else if (str =="SJA") {
+    else{
         cout<<"St. Johnsbury Academy";
     }
-
+    
     return 0;
 }
