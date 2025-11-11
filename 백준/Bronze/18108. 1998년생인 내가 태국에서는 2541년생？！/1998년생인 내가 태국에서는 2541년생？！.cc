@@ -3,12 +3,12 @@
 using namespace std;
 
 int main(){
-	int a;
-	int result;
-	
-	cin>>a;
-	result=a-543;
-	cout<<result;
-	
-	return 0;
+    
+    int n;
+    
+    cin>>n;
+    
+    cout<<n-543;
+    
+    return 0;
 }
